@@ -1,0 +1,14 @@
+spring:
+  thymeleaf:
+    cache: false
+    mode: HTML5
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/maven_mybatis
+    username: root
+    password: 123456
+mybatis:
+  mapper-locations: classpath:com/qf/springboot_ssm/dao/mapper/*.xml
+  type-aliasesx-package: com.qf.springboot_ssm.entity
+
+
