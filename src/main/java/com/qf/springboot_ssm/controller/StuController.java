@@ -17,7 +17,7 @@ import java.util.List;
  */
 @Controller
 @RequestMapping("/stu")
-public class StuController {
+public class  StuController {
 
     @Autowired
     private IStudentService studentService;
@@ -32,6 +32,7 @@ public class StuController {
     @RequestMapping("/list/student")
     @ResponseBody
     public List<Student> studentList(){
+
         return studentService.queryAll();
     }
 }
