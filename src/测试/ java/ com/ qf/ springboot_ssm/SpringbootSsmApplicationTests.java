@@ -11,5 +11,6 @@ public class SpringbootSsmApplicationTests {
 
     @Test
     public void contextLoads() {
+system.out.prin
     }
 }
