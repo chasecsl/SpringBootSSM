@@ -14,5 +14,6 @@ public class SpringbootSsmApplicationTests {
         System.out.println("我是中国人345");
         System.out.println("我是中国人123");
         System.out.println("我是中国人123444");
+        System.out.println("我是中国人789");
     }
 }
