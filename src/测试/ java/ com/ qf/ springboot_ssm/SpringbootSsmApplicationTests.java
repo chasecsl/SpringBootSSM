@@ -11,6 +11,6 @@ public class SpringbootSsmApplicationTests {
 
     @Test
     public void contextLoads() {
-        System.out.println("我是中国人123");
+        System.out.println("我是中国人345");
     }
 }
