@@ -13,5 +13,6 @@ public class SpringbootSsmApplicationTests {
     public void contextLoads() {
         System.out.println("我是中国人345");
         System.out.println("我是中国人123");
+        System.out.println("我是中国人789");
     }
 }
